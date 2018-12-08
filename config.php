@@ -17,16 +17,16 @@ error_reporting(0);
 
 
 // Change IMAP settings (check SSL flags on http://php.net/manual/en/function.imap-open.php)
-$config['imap']['url'] = '{imap.example.com:993/imap/ssl}INBOX';
-$config['imap']['username'] = "myuser";
-$config['imap']['password'] = "mypassword";
+$config['imap']['url'] = '{mail.50webs.com:143/novalidate-cert}INBOX';
+$config['imap']['username'] = "admin@ehlaa.ga";
+$config['imap']['password'] = "6U19SOepww";
 
 // For gmail you can use '{imap.gmail.com:993/imap/ssl}INBOX'
 // and follow the troubleshooting at:
 // https://stackoverflow.com/a/25238515/79461
 
 // email domains, usually different from imap hostname:
-$config['domains'] = array('mydomain.com', 'example.com');
+$config['domains'] = array('lapu-lapu.ml', 'balmond.ml');
 
 // When to delete old messages?
 $config['delete_messages_older_than'] = '30 days ago';
@@ -36,4 +36,4 @@ $config['delete_messages_older_than'] = '30 days ago';
 $config['blocked_usernames'] = array('root', 'admin', 'administrator', 'hostmaster', 'postmaster', 'webmaster');
 
 // Mails are usually show as Text and only if not available as HTML. You can turn this around to prefer HTML over text.
-$config['prefer_plaintext'] = true;
+$config['prefer_plaintext'] = false;
