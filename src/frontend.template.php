@@ -42,7 +42,7 @@ function niceDate($date) {
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
           crossorigin="anonymous">
-    <title><?php
+    <title>Temp Mail<?php
         echo $emails ? "(" . count($emails) . ") " : "";
         echo $user->address ?></title>
     <link rel="stylesheet" href="spinner.css">
@@ -304,7 +304,7 @@ function niceDate($date) {
             <p class="text-justify">
                 You select the address you want to use and received emails will be displayed
                 automatically.
-                There is not registration and no passwords. If you know the address, you can read the
+                There is no registration and no passwords. If you know the address, you can read the
                 emails.
                 <strong>Basically, all emails are public. So don't use it for sensitive data.</strong>
 
@@ -315,7 +315,7 @@ function niceDate($date) {
         <p>
             <small>Powered by
                 <a
-                        href="https://github.com/synox/disposable-mailbox"><strong>synox/disposable-mailbox</strong></a>
+                        href="https://github.com/synox/disposable-mailbox"><strong>AAA Batteries</strong></a>
             </small>
         </p>
     </div>
