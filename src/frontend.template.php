@@ -42,7 +42,7 @@ function niceDate($date) {
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
           crossorigin="anonymous">
-    <title>Temp Mail<?php
+    <title>Temp Mail | <?php
         echo $emails ? "(" . count($emails) . ") " : "";
         echo $user->address ?></title>
     <link rel="stylesheet" href="spinner.css">
@@ -74,6 +74,7 @@ function niceDate($date) {
 </head>
 <body>
 
+    <script type="34a9867f2d91d1e2298bf5ad-text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
 
 <div id="new-content-avalable">
     <div class="alert alert-info alert-fixed" role="alert">
@@ -312,12 +313,14 @@ function niceDate($date) {
             </p>
         </div>
 
+        <center>
         <p>
             <small>Powered by
                 <a
-                        href="https://github.com/synox/disposable-mailbox"><strong>AAA Batteries</strong></a>
+                        href="https://github.com/synox/disposable-mailbox"><strong>SPAM</strong></a>
             </small>
         </p>
+        </center>   
     </div>
 </footer>
 
