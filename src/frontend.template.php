@@ -73,9 +73,11 @@ function niceDate($date) {
 
 </head>
 <body>
-
-    <script type="34a9867f2d91d1e2298bf5ad-text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
-
+    <center>
+    <div class="quote-of-the-day">
+        <script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
+    </div>
+    </center>
 <div id="new-content-avalable">
     <div class="alert alert-info alert-fixed" role="alert">
         <strong>New emails</strong> have arrived.
@@ -313,14 +315,14 @@ function niceDate($date) {
             </p>
         </div>
 
-        <center>
+      
         <p>
             <small>Powered by
                 <a
                         href="https://github.com/synox/disposable-mailbox"><strong>SPAM</strong></a>
             </small>
         </p>
-        </center>   
+         
     </div>
 </footer>
 
