@@ -74,9 +74,9 @@ function niceDate($date) {
 </head>
 <body>
     <center>
-    <div class="quote-of-the-day">
-        <script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
-    </div>
+        <blockquote class="quote-of-the-day">
+            <script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
+        </blockquote>
     </center>
 <div id="new-content-avalable">
     <div class="alert alert-info alert-fixed" role="alert">
