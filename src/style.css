@@ -115,15 +115,8 @@ footer {
 .quote-of-the-day b, .quote-of-the-day br {display:none}
 .quote-of-the-day {
   padding: 1em;
-  border-left: 4px solid #ddd;
-  background: #f0f0f0;
+  background: transparent;
   margin: 1em;
   color: #333;
 }
 .quote-of-the-day a {display:none}
-
-.quote-of-the-day a:before {
-  content: '\00a0\2014\00a0';
-  color: #333;
-  cursor: default;
-}
