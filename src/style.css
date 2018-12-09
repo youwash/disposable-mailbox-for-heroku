@@ -112,4 +112,4 @@ footer {
     margin: 1rem;
 }
 
-.quote-of-the-day a {display:none}, .quote-of-the-day b, .quote-of-the-day b + br {display:none}
+.quote-of-the-day b, .quote-of-the-day b + br {display:none}
