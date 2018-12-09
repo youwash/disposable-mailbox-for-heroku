@@ -120,11 +120,8 @@ footer {
   margin: 1em;
   color: #333;
 }
-.quote-of-the-day a {
-  text-decoration: none;
-  color: #c55;
-  font-style: italic;
-}
+.quote-of-the-day a {display:none}
+
 .quote-of-the-day a:before {
   content: '\00a0\2014\00a0';
   color: #333;
