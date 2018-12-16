@@ -320,7 +320,7 @@ function niceDate($date) {
         <p>
             <small>Powered by
                 <a
-                        href="https://github.com/synox/disposable-mailbox"><strong>Hiretual</strong></a>
+                        href="#"><strong>Hiretual</strong></a>
             </small>
         </p>
          
